@@ -6,7 +6,7 @@ public class Calculator {
 		System.out.println("constructor");
 	}
  public int add(int a,int b) {
-	
+	System.out.println("adding");
 	 return a+b;
  }
  

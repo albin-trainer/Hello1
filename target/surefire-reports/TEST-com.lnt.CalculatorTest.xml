@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lnt.CalculatorTest" time="0.098" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.lnt.CalculatorTest" time="0.126" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Albin\AppData\Local\Temp\surefire4654861062884366847\surefirebooter4099563870066493600.jar C:\Users\Albin\AppData\Local\Temp\surefire4654861062884366847 2022-03-02T18-30-24_028-jvmRun1 surefire8730113955507377266tmp surefire_06765849850701399305tmp"/>
+    <property name="sun.java.command" value="C:\Users\Albin\AppData\Local\Temp\surefire7672923959942911726\surefirebooter5952506972436447963.jar C:\Users\Albin\AppData\Local\Temp\surefire7672923959942911726 2022-03-02T19-11-00_692-jvmRun1 surefire675356392581100798tmp surefire_06704333578498289358tmp"/>
     <property name="surefire.test.class.path" value="D:\Albin_Workspace\LNT_Feb_2022\Hello\target\test-classes;D:\Albin_Workspace\LNT_Feb_2022\Hello\target\classes;C:\Users\Albin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Albin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Albin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Albin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Albin\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Albin"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Albin\AppData\Local\Temp\surefire4654861062884366847\surefirebooter4099563870066493600.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Albin\AppData\Local\Temp\surefire7672923959942911726\surefirebooter5952506972436447963.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,17 +60,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAdd{int, int, int}[1]" classname="com.lnt.CalculatorTest" time="0.024"/>
-  <testcase name="testAdd{int, int, int}[2]" classname="com.lnt.CalculatorTest" time="0.002"/>
-  <testcase name="testAdd{int, int, int}[3]" classname="com.lnt.CalculatorTest" time="0.001"/>
-  <testcase name="testAdd{int, int, int}[4]" classname="com.lnt.CalculatorTest" time="0.003"/>
-  <testcase name="testDiv" classname="com.lnt.CalculatorTest" time="0.003"/>
-  <testcase name="testAdd2{int, int, int}[1]" classname="com.lnt.CalculatorTest" time="0.002"/>
-  <testcase name="testAdd2{int, int, int}[2]" classname="com.lnt.CalculatorTest" time="0.003"/>
-  <testcase name="testAdd2{int, int, int}[3]" classname="com.lnt.CalculatorTest" time="0.001"/>
-  <testcase name="testAdd2{int, int, int}[4]" classname="com.lnt.CalculatorTest" time="0.001"/>
-  <testcase name="testAdd2{int, int, int}[5]" classname="com.lnt.CalculatorTest" time="0.001"/>
-  <testcase name="testAdd2{int, int, int}[6]" classname="com.lnt.CalculatorTest" time="0.003"/>
-  <testcase name="testDiff" classname="com.lnt.CalculatorTest" time="0.001"/>
-  <testcase name="testProduct" classname="com.lnt.CalculatorTest" time="0.001"/>
+  <testcase name="testAdd{int, int, int}[1]" classname="com.lnt.CalculatorTest" time="0.032"/>
+  <testcase name="testAdd{int, int, int}[2]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd{int, int, int}[3]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd{int, int, int}[4]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testDiv" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd2{int, int, int}[1]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd2{int, int, int}[2]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd2{int, int, int}[3]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd2{int, int, int}[4]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd2{int, int, int}[5]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testAdd2{int, int, int}[6]" classname="com.lnt.CalculatorTest" time="0"/>
+  <testcase name="testDiff" classname="com.lnt.CalculatorTest" time="0.016"/>
+  <testcase name="testProduct" classname="com.lnt.CalculatorTest" time="0"/>
 </testsuite>
