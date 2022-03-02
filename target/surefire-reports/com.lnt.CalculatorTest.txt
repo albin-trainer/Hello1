@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.lnt.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 s - in com.lnt.CalculatorTest
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! - in com.lnt.CalculatorTest
+testAdd2{int, int, int}  Time elapsed: 0.011 s  <<< ERROR!
+org.junit.platform.commons.PreconditionViolationException: Classpath resource [/data.csv] does not exist
+
