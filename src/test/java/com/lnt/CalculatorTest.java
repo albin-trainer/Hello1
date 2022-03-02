@@ -45,7 +45,7 @@ class CalculatorTest {
 		int result=c.add(a, b);
 		assertEquals(expectedValue, result);
 	}
-	@Tag("PROD")
+	/*@Tag("PROD")
 	@ParameterizedTest
 	@CsvFileSource(resources = "/data.csv",numLinesToSkip = 1)
 	@DisplayName("AddingNumbers2")
@@ -54,7 +54,7 @@ class CalculatorTest {
 		System.out.println("testing add ...");
 		int result=c.add(a, b);
 		assertEquals(expectedValue, result);
-	}
+	}*/
 	
 	@Tag("Testing")
 	@Test
